@@ -1,11 +1,9 @@
 import glob
 import json
-import logging
 import math
 import os
 import random
 import re
-from logging import config
 
 import requests
 import webcolors
@@ -36,7 +34,6 @@ cookies = {
     'CultureSettings': 'H4sIAAAAAAAEAAXByYJDMAAA0A9yQGM99CAytVcaa92qjNIEUUzbr5%2f3vkkExaCz18E9wa2id0Uiw3YVDt77%2fHG4LUTcswhqLSdFHCexOBbAZCGm38fv05bTqsncF3jD3qnFPmKzrj%2fzIt9%2bbmX24dGw6orehG6ODXOjMZ41RhONwHU1i1cr3ILUFCxRUt%2by4ym1wsh0InE6E1MIwtH4NLW715JjF4enjtrwnXGnnJV98yV1ogS2aa8l42TTMpZ8sa6RbC0dsG1ZhqdAGzkv4326yry%2bwFndv8CYXfKH1QvrtW1FHpHNlFLj8mcjnYigNmBJEU7hDVUCXsRlxvdk4N1K%2fF4ZwcxA6C7AzSqwP8rXufGZSSo1P7B7KIjjiq9bAkMM1TJSu%2bPxH9chbwdYAQAA',
 }
 headers = {
-    'path': '/api/member/Login',
     'accept': 'application/json, text/javascript, */*; q=0.01',
     'accept-language': 'en,ar;q=0.9,tr;q=0.8',
     'cache-control': 'no-cache',
@@ -81,6 +78,9 @@ def ulusoyScraper():
         logger.info(f'Categories found: {len(page_element)}')
 
         for element in progressbar(page_element):
+            
+            if os.path.exists('dumps/data.json'):
+                    break
 
             # Category's Title and ID
             element_title = re.sub(
@@ -219,29 +219,29 @@ def ulusoyScraper():
                         URL2 + re.sub("en/", '', re.sub("thumb", "buyuk", image.attrs['src'])))
 
                 products[element_title].append(products_update)
-            switchLock = True
+                save_data(products, element_title, 'data')
+            
             logger.info(element_title)
+        switchLock = True    
         logger.info("All data has been processed")
         return
 
 
-def create_product(products):
-    global ResContent, Main, body, seoNameEn, switchLock
-    epayload = {}
-    eheaders = {
-        "Authorization": "Bearer secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7",
-        "Content-Type": 'application/json;charset: utf-8'
-    }
+def create_product():
+    global ResContent, Main, body, switchLock    
+        
     while switchLock is False:
-        time.sleep(300)
+        time.sleep(60)
 
+    open_json = open('dumps/data.json', 'r',encoding='utf-8')
+    products = json.load(open_json)
+    
     # Checking message type
     for product in progressbar(products):
         switchLock = False
         product_list = products[product]
-        MCategory = products[product][0]['category_id']
         # Dumping categories into a dict var
-        categories = dump_categories(MCategory)
+        categories = dump_categories()
         try:
             for data in tqdm(product_list, desc=f'New product %d'):
                 # Creating variables with ready to use data from telegram message
@@ -496,7 +496,7 @@ def create_product(products):
                             Main_IMG.close()
                             Main_IMG = open(Main_name, 'rb').read()                            
                             MainImgRes = requests.post(
-                                f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/image?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7', data=Main_IMG, headers=eheaders)
+                                f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/image?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7', data=Main_IMG, headers=headers)
                             if MainImgRes.status_code == 200:
                                 logger.info(
                                 f'Main image upload is successful | Status code: {MainImgRes.status_code} | Reason: { MainImgRes.reason} | Image name: {Main_name}')
@@ -508,16 +508,14 @@ def create_product(products):
                             for img in data['images']:
                                 file_name = f'media/{random.randint(300000, 90000000)}.jpg'
                                 with open(file_name, 'wb') as file:
-                                    file.write(requests.get(img, headers={
-                                        "User-Agent": "Chrome/51.0.2704.103",
-                                    }, stream=True).content)
+                                    file.write(requests.get(img, headers=headers, stream=True).content)
 
                                 file.close()
                                 file = open(file_name, 'rb').read()
                                 gallery_upload = requests.post(
                                     f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/gallery?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7',
                                     data=file,
-                                    headers=eheaders)
+                                    headers=headers, cookies=cookies)
                                 if gallery_upload.status_code == 200:
                                     logger.info(
                                     f"Gallery image uploaded | Status code: {gallery_upload.status_code} | Reason: {gallery_upload.reason} | Filename: {file_name}"
@@ -569,11 +567,38 @@ def create_product(products):
             continue
 
 
+
+def save_data(data: dict, main: str, files: str):
+    global json_data
+    File_path = f'dumps/{files}.json'
+    if os.path.exists(File_path):
+        
+        # Dumping categories into a dict var
+        open_json = open(File_path, 'r',encoding='utf-8')
+        json_data = json.load(open_json)  
+        if len(data[main]) == len(json_data[main]):
+            pass
+        else:     
+            json_data[main].append(data[main][0]) 
+            with open(File_path, 'w', encoding='utf-8') as file:
+                file.truncate()
+                json.dump(data, file, ensure_ascii=False)
+            file.close()   
+    else:
+        with open(File_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False)
+        file.close()
+        open_json = open(File_path, 'r',encoding='utf-8')
+        json_data = json.load(open_json)
+        
+    return json_data
+
+
 def main():
     from threading import Thread
     new_thread = Thread(target=ulusoyScraper)
     new_thread.start()
-    create_product(products)
+    create_product()
 
 # clearing the console from unnecessary
 
