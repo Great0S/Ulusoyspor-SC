@@ -243,14 +243,14 @@ def create_product():
         # Dumping categories into a dict var
         categories = dump_categories()
         try:
-            for data in tqdm(product_list, desc=f'New product %d'):
+            for data in tqdm(product_list, desc=f'New product'):
                 # Creating variables with ready to use data from telegram message
                 name = f'{product} Shoes'
                 nameAr = english_translate.translate(f'{product} Shoes')
                 size = data['sizes']
                 pcQty = 0
                 if type(size) == str:
-                    processed_int = re.sub(r'\d\d:|Asorti:|\d\d.|Asorti :|=\d\W\w+\s\w+|=\d\W\w+|Asorti|\d\w+', '', size).strip()
+                    processed_int = re.sub(r'\d\d:|Asorti:|\d\d.|Asorti :|=\d\W\w+\s\w+|=\d\W\w+|Asorti|\d\w+|\d\D\w+\s\w+', '', size).strip()
                     processed_int = processed_int.replace(':', ' ')
                     pcQty = sum(map(int, processed_int.split()))
                     if pcQty <= 1:
