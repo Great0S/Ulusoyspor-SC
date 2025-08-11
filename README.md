@@ -1,6 +1,6 @@
-# 🏪 Ulusoyspor Shoe Scraper & E-commerce Integration
+# 🏪 Shoe Retailer to Ecwid Bridge
 
-A comprehensive **Turkish shoe product scraper** and **e-commerce automation system** that extracts product data from [Ulusoyspor.com](https://www.ulusoyspor.com) and automatically creates multilingual product listings in Ecwid e-commerce platform.
+A comprehensive **Turkish shoe product scraper** and **e-commerce automation system** that extracts product data from Turkish wholesale shoe retailers and automatically creates multilingual product listings in Ecwid e-commerce platform.
 
 ## 📋 Table of Contents
 
@@ -19,7 +19,7 @@ A comprehensive **Turkish shoe product scraper** and **e-commerce automation sys
 
 ## 🎯 Overview
 
-This system automates the process of importing Turkish shoe products from a wholesale supplier (Ulusoyspor) into an e-commerce platform. It handles:
+This system automates the process of importing Turkish shoe products from wholesale suppliers into an e-commerce platform. It handles:
 
 - **Web Scraping**: Extracts product data including images, prices, sizes, and specifications
 - **Data Processing**: Cleans and validates product information
@@ -31,7 +31,7 @@ This system automates the process of importing Turkish shoe products from a whol
 ## ✨ Features
 
 ### 🔍 **Web Scraping**
-- Automated extraction from ulusoyspor.com
+- Automated extraction from Turkish shoe retailer websites
 - Product details (names, codes, prices, quantities)
 - Size ranges, colors, materials, and brands
 - High-resolution product images
@@ -106,14 +106,14 @@ This system automates the process of importing Turkish shoe products from a whol
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Ulusoyspor    │    │   Telegram      │    │   Google        │
-│   Website       │────│   Channels      │────│   Translate     │
+│   Turkish Shoe  │    │   Telegram      │    │   Google        │
+│   Retailer      │────│   Channels      │────│   Translate     │
 │   (Source)      │    │   (Trigger)     │    │   (Translation) │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          ▼                       ▼                       ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Ulusoyspor Scraper                          │
+│                  Shoe Retailer Scraper                         │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────┐ │
 │  │   Scraping  │  │ Translation │  │    Data Processing      │ │
 │  │   Module    │  │   Service   │  │    & Validation         │ │
@@ -143,8 +143,8 @@ This system automates the process of importing Turkish shoe products from a whol
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/Great0S/Ulusoyspor-SC.git
-cd Ulusoyspor-SC
+git clone https://github.com/Great0S/Shoe-Retailer-Ecwid-Bridge.git
+cd Shoe-Retailer-Ecwid-Bridge
 ```
 
 ### 2. Create Virtual Environment
@@ -162,7 +162,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 ```env
 # Database Configuration
-DATABASE_URL=postgresql://db_user:db_password@localhost:5432/ulusoyspor_db
+DATABASE_URL=postgresql://db_user:db_password@localhost:5432/shoe_retailer_db
 
 # Telegram Configuration
 TELEGRAM_API_ID=your_api_id
@@ -214,7 +214,7 @@ class Settings(BaseSettings):
 
 ### Basic Scraping
 ```bash
-python ulusoyspor_scraper.py
+python shoe_retailer_scraper.py
 ```
 
 ### Run with Celery Workers
@@ -223,7 +223,7 @@ python ulusoyspor_scraper.py
 celery -A app.celery_server worker --loglevel=info
 
 # Terminal 2: Start main application
-python ulusoyspor_scraper.py
+python shoe_retailer_scraper.py
 ```
 
 ### Telegram Bot Integration
@@ -234,8 +234,8 @@ python app/tele_bot.py
 ## 📁 Project Structure
 
 ```
-Ulusoyspor-SC/
-├── 📄 ulusoyspor_scraper.py      # Main scraping application
+Shoe-Retailer-Ecwid-Bridge/
+├── 📄 shoe_retailer_scraper.py   # Main scraping application
 ├── 📁 app/
 │   ├── 📄 __init__.py
 │   ├── 📄 celery_server.py       # Celery configuration
@@ -283,7 +283,7 @@ Ulusoyspor-SC/
 ## 🌍 Multilingual Support
 
 ### Translation Pipeline
-1. **Source**: Turkish product information from Ulusoyspor
+1. **Source**: Turkish product information from shoe retailers
 2. **Primary Translation**: Turkish → English using Google Translate
 3. **Secondary Translation**: English → Arabic for Middle Eastern markets
 4. **Content Optimization**: SEO-friendly titles and descriptions
@@ -297,7 +297,7 @@ Ulusoyspor-SC/
 
 ```mermaid
 graph TD
-    A[Ulusoyspor Website] --> B[Web Scraper]
+    A[Turkish Shoe Retailer] --> B[Web Scraper]
     B --> C[Data Processing]
     C --> D[Translation Service]
     D --> E[Product Creation]
@@ -347,13 +347,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For support, please contact:
-- **Email**: support@ulusoyspor-scraper.com
-- **GitHub Issues**: [Create an issue](https://github.com/Great0S/Ulusoyspor-SC/issues)
-- **Documentation**: [Wiki](https://github.com/Great0S/Ulusoyspor-SC/wiki)
+- **Email**: support@shoe-retailer-bridge.com
+- **GitHub Issues**: [Create an issue](https://github.com/Great0S/Shoe-Retailer-Ecwid-Bridge/issues)
+- **Documentation**: [Wiki](https://github.com/Great0S/Shoe-Retailer-Ecwid-Bridge/wiki)
 
 ## 🙏 Acknowledgments
 
-- **Ulusoyspor.com** - Product data source
+- **Turkish Shoe Retailers** - Product data sources
 - **Ecwid** - E-commerce platform
 - **Google Translate** - Translation services
 - **Telegram** - Bot platform and messaging
