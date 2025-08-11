@@ -1,0 +1,1030 @@
+[
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "chord",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logging",
+        "importPath": "celery.signals",
+        "description": "celery.signals",
+        "isExtraImport": true,
+        "detail": "celery.signals",
+        "documentation": {}
+    },
+    {
+        "label": "flask_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "log_config",
+        "importPath": "config.logger",
+        "description": "config.logger",
+        "isExtraImport": true,
+        "detail": "config.logger",
+        "documentation": {}
+    },
+    {
+        "label": "log_config",
+        "importPath": "config.logger",
+        "description": "config.logger",
+        "isExtraImport": true,
+        "detail": "config.logger",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramClient",
+        "importPath": "telethon.sync",
+        "description": "telethon.sync",
+        "isExtraImport": true,
+        "detail": "telethon.sync",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "isExtraImport": true,
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleTranslator",
+        "importPath": "deep_translator",
+        "description": "deep_translator",
+        "isExtraImport": true,
+        "detail": "deep_translator",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "importPath": "app.tele_bot",
+        "description": "app.tele_bot",
+        "isExtraImport": true,
+        "detail": "app.tele_bot",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "isExtraImport": true,
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "isExtraImport": true,
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "isExtraImport": true,
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "progressbar",
+        "importPath": "progressbar",
+        "description": "progressbar",
+        "isExtraImport": true,
+        "detail": "progressbar",
+        "documentation": {}
+    },
+    {
+        "label": "progressbar",
+        "importPath": "progressbar",
+        "description": "progressbar",
+        "isExtraImport": true,
+        "detail": "progressbar",
+        "documentation": {}
+    },
+    {
+        "label": "check_category",
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "isExtraImport": true,
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "dump_categories",
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "isExtraImport": true,
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "magic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "magic",
+        "description": "magic",
+        "detail": "magic",
+        "documentation": {}
+    },
+    {
+        "label": "VideoFileClip",
+        "importPath": "moviepy.editor",
+        "description": "moviepy.editor",
+        "isExtraImport": true,
+        "detail": "moviepy.editor",
+        "documentation": {}
+    },
+    {
+        "label": "category_fill",
+        "importPath": "modules.category_filling",
+        "description": "modules.category_filling",
+        "isExtraImport": true,
+        "detail": "modules.category_filling",
+        "documentation": {}
+    },
+    {
+        "label": "category_processor",
+        "importPath": "modules.category_processor",
+        "description": "modules.category_processor",
+        "isExtraImport": true,
+        "detail": "modules.category_processor",
+        "documentation": {}
+    },
+    {
+        "label": "options_fill",
+        "importPath": "modules.options_processor",
+        "description": "modules.options_processor",
+        "isExtraImport": true,
+        "detail": "modules.options_processor",
+        "documentation": {}
+    },
+    {
+        "label": "text_processor",
+        "importPath": "modules.text_processor",
+        "description": "modules.text_processor",
+        "isExtraImport": true,
+        "detail": "modules.text_processor",
+        "documentation": {}
+    },
+    {
+        "label": "clear_all",
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "isExtraImport": true,
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "webcolors",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webcolors",
+        "description": "webcolors",
+        "detail": "webcolors",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "poster",
+        "importPath": "tasks.create_products",
+        "description": "tasks.create_products",
+        "isExtraImport": true,
+        "detail": "tasks.create_products",
+        "documentation": {}
+    },
+    {
+        "label": "config_logger",
+        "kind": 2,
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "peekOfCode": "def config_logger(*args, **kwargs):\n    Config.dictConfig(log_config)\ndef make_celery(app):\n    celery = Celery(\n        app.import_name,\n        backend=app.config['CELERY_RESULT_BACKEND'],\n        broker=app.config['CELERY_BROKER_URL'],\n        include=[\"app.tasks\"]\n    )\n    class ContextTask(celery.Task):",
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "make_celery",
+        "kind": 2,
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "peekOfCode": "def make_celery(app):\n    celery = Celery(\n        app.import_name,\n        backend=app.config['CELERY_RESULT_BACKEND'],\n        broker=app.config['CELERY_BROKER_URL'],\n        include=[\"app.tasks\"]\n    )\n    class ContextTask(celery.Task):\n        def __call__(self, *args, **kwargs):\n            with app.app_context():",
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "chord",
+        "kind": 5,
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "peekOfCode": "chord = chord\n# Logging config\n@setup_logging.connect\ndef config_logger(*args, **kwargs):\n    Config.dictConfig(log_config)\ndef make_celery(app):\n    celery = Celery(\n        app.import_name,\n        backend=app.config['CELERY_RESULT_BACKEND'],\n        broker=app.config['CELERY_BROKER_URL'],",
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "kind": 5,
+        "importPath": "app.celery_server",
+        "description": "app.celery_server",
+        "peekOfCode": "celery = make_celery(flask_app)",
+        "detail": "app.celery_server",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "app.tele_bot",
+        "description": "app.tele_bot",
+        "peekOfCode": "bot = TelegramClient(session=settings.session_name,\n                     api_id=settings.api_id,\n                     api_hash=settings.api_hash,\n                     sequential_updates=True)",
+        "detail": "app.tele_bot",
+        "documentation": {}
+    },
+    {
+        "label": "log_config",
+        "kind": 5,
+        "importPath": "config.logger",
+        "description": "config.logger",
+        "peekOfCode": "log_config = {\n    \"version\": 1,\n    \"disable_existing_loggers\": False,\n    \"formatters\": {\n        \"celeryTask\": {\n            \"()\": \"celery.app.log.TaskFormatter\",\n            \"fmt\": \"[%(asctime)s: {} %(levelname)s %(message)s] \",\n        },\n        'default': {\n            'format': '[%(asctime)s:%(levelname)s:%(name)s:%(threadName)s] %(message)s',",
+        "detail": "config.logger",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "class Settings(BaseSettings):\n    \"\"\"\n    Main settings class containing all application configuration.\n    This class uses Pydantic BaseSettings to provide:\n    - Automatic type validation\n    - Environment variable loading\n    - Default value management\n    - Configuration documentation\n    Configuration Categories:\n        1. Logging: Application logging setup and file management",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseConfig",
+        "kind": 6,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "class BaseConfig():\n    \"\"\"\n    Base configuration class with common settings for all environments.\n    Provides fundamental configuration that applies across all deployment\n    environments (Development, Production, Testing).\n    Attributes:\n        API_PREFIX (str): Base URL prefix for all API endpoints\n        TESTING (bool): Testing mode flag for test-specific behavior\n        DEBUG (bool): Debug mode flag for development features\n    \"\"\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DevConfig",
+        "kind": 6,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "class DevConfig(BaseConfig):\n    \"\"\"\n    Development environment configuration.\n    Optimized for local development with:\n    - Debug mode enabled for detailed error messages\n    - Local database and message broker connections\n    - Development-friendly logging and monitoring\n    Database: PostgreSQL with development credentials\n    Message Broker: RabbitMQ for async task processing\n    \"\"\"",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ProductionConfig",
+        "kind": 6,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "class ProductionConfig(BaseConfig):\n    \"\"\"\n    Production environment configuration.\n    Optimized for production deployment with:\n    - Security-focused settings\n    - Performance optimizations\n    - Production-grade database and broker connections\n    - Enhanced monitoring and logging\n    Security Features:\n    - Debug mode disabled",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TestConfig",
+        "kind": 6,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "class TestConfig(BaseConfig):\n    \"\"\"\n    Testing environment configuration.\n    Optimized for automated testing with:\n    - Synchronous task execution for predictable testing\n    - Debug mode enabled for test debugging\n    - Testing-specific database and broker settings\n    Testing Features:\n    - CELERY_ALWAYS_EAGER: Forces synchronous task execution\n    - TESTING flag: Enables test-specific application behavior",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "config.settings",
+        "description": "config.settings",
+        "peekOfCode": "settings = Settings()",
+        "detail": "config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "category_fill",
+        "kind": 2,
+        "importPath": "modules.category_filling",
+        "description": "modules.category_filling",
+        "peekOfCode": "def category_fill(main_category, category_names, category_ids, MCategory):\n    global category_name\n    defaultCategoryID = None\n    defaultCategory = None\n    category_name = None\n    for value in category_names:\n        if value == main_category and len(value) == len(main_category):\n            category_name = value\n            defaultCategoryID = category_names.index(value)\n            defaultCategory = category_ids[defaultCategoryID]",
+        "detail": "modules.category_filling",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.category_filling",
+        "description": "modules.category_filling",
+        "peekOfCode": "logger = settings.logger\ndef category_fill(main_category, category_names, category_ids, MCategory):\n    global category_name\n    defaultCategoryID = None\n    defaultCategory = None\n    category_name = None\n    for value in category_names:\n        if value == main_category and len(value) == len(main_category):\n            category_name = value\n            defaultCategoryID = category_names.index(value)",
+        "detail": "modules.category_filling",
+        "documentation": {}
+    },
+    {
+        "label": "category_processor",
+        "kind": 2,
+        "importPath": "modules.category_processor",
+        "description": "modules.category_processor",
+        "peekOfCode": "def category_processor(telegram_category, main_category, category_names):\n    try:\n        for name in category_names:\n            if name == telegram_category:\n                main_category = telegram_category\n                break\n            else:\n                main_category = None\n        if main_category:\n            logger.info(",
+        "detail": "modules.category_processor",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.category_processor",
+        "description": "modules.category_processor",
+        "peekOfCode": "logger = settings.logger\ndef category_processor(telegram_category, main_category, category_names):\n    try:\n        for name in category_names:\n            if name == telegram_category:\n                main_category = telegram_category\n                break\n            else:\n                main_category = None\n        if main_category:",
+        "detail": "modules.category_processor",
+        "documentation": {}
+    },
+    {
+        "label": "dump_categories",
+        "kind": 2,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "def dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])\n    # Pulling categories data and storing them in a list\n    for offset in range(0, pages, 100):\n        category_response = requests.get(category_url + '&offset=' + str(offset)).json()\n        items_list = category_response['items']\n        # Loading primary categories info\n        for value in items_list:",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "check_category",
+        "kind": 2,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "def check_category():\n    global categories\n    File_path = 'dumps/categories.json'\n    if os.path.exists(File_path):\n        request_category = requests.get(category_url, headers=headers).json()\n        category_total = int(request_category['total'])\n        # Dumping categories into a dict var\n        open_json = open('dumps/categories.json', encoding='utf-8')\n        categories = json.load(open_json)\n        if len(categories['name']) == category_total:",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "categories",
+        "kind": 5,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "categories = {'id': [], 'name': [], 'nameEn': [], 'parentId': []}\n# Config\nlogger = settings.logger\nproducts_url = settings.products_url\ncategory_url = settings.category_url + settings.ecwid_token\nheaders = settings.ecwid_headers\ndef dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "logger = settings.logger\nproducts_url = settings.products_url\ncategory_url = settings.category_url + settings.ecwid_token\nheaders = settings.ecwid_headers\ndef dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])\n    # Pulling categories data and storing them in a list\n    for offset in range(0, pages, 100):",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "products_url",
+        "kind": 5,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "products_url = settings.products_url\ncategory_url = settings.category_url + settings.ecwid_token\nheaders = settings.ecwid_headers\ndef dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])\n    # Pulling categories data and storing them in a list\n    for offset in range(0, pages, 100):\n        category_response = requests.get(category_url + '&offset=' + str(offset)).json()",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "category_url",
+        "kind": 5,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "category_url = settings.category_url + settings.ecwid_token\nheaders = settings.ecwid_headers\ndef dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])\n    # Pulling categories data and storing them in a list\n    for offset in range(0, pages, 100):\n        category_response = requests.get(category_url + '&offset=' + str(offset)).json()\n        items_list = category_response['items']",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "modules.dump_category",
+        "description": "modules.dump_category",
+        "peekOfCode": "headers = settings.ecwid_headers\ndef dump_categories():\n    # Creating a Get request for categories\n    products_response = requests.get(products_url, headers=headers).json()\n    pages = int(products_response['total'])\n    # Pulling categories data and storing them in a list\n    for offset in range(0, pages, 100):\n        category_response = requests.get(category_url + '&offset=' + str(offset)).json()\n        items_list = category_response['items']\n        # Loading primary categories info",
+        "detail": "modules.dump_category",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.message_processor",
+        "description": "modules.message_processor",
+        "peekOfCode": "logger = settings.logger\nclient.start(phone=settings.phone)",
+        "detail": "modules.message_processor",
+        "documentation": {}
+    },
+    {
+        "label": "options_fill",
+        "kind": 2,
+        "importPath": "modules.options_processor",
+        "description": "modules.options_processor",
+        "peekOfCode": "def options_fill(RefinedTxt, false, OpValues, OpBody):\n    for Op in OpValues:\n        Op1Value = ''\n        Op = RefinedTxt[Op]\n        Op1Name = re.sub('[^ا-ي]', ' ', Op)\n        Op1Name = re.sub('^[ \\t+]|[ \\t]+$', '', Op1Name)\n        if re.search('\\$', Op):\n            Op = re.sub('[^\\da-zA-Z$.]', '', Op)\n            Op1Value = Op\n        else:",
+        "detail": "modules.options_processor",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.options_processor",
+        "description": "modules.options_processor",
+        "peekOfCode": "logger = settings.logger\n# Extract options from processed text\ndef options_fill(RefinedTxt, false, OpValues, OpBody):\n    for Op in OpValues:\n        Op1Value = ''\n        Op = RefinedTxt[Op]\n        Op1Name = re.sub('[^ا-ي]', ' ', Op)\n        Op1Name = re.sub('^[ \\t+]|[ \\t]+$', '', Op1Name)\n        if re.search('\\$', Op):\n            Op = re.sub('[^\\da-zA-Z$.]', '', Op)",
+        "detail": "modules.options_processor",
+        "documentation": {}
+    },
+    {
+        "label": "text_processor",
+        "kind": 2,
+        "importPath": "modules.text_processor",
+        "description": "modules.text_processor",
+        "peekOfCode": "def text_processor(message):\n    RegExForSpecial = re.sub(\"[🔹💰🌺]\", \"\", message)\n    RegExForSpecial = re.sub(\" :\", \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(\"[ ]\", \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(r'^\\s', \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(\n        r'^\\n|\\n\\n|\\n\\n\\n|\\n\\n\\n\\n|\\n\\n\\n\\n\\n', \"\", RegExForSpecial)\n    RefinedTxt = RegExForSpecial.splitlines()\n    logger.info(\"Text has been processed\")\n    return RefinedTxt",
+        "detail": "modules.text_processor",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.text_processor",
+        "description": "modules.text_processor",
+        "peekOfCode": "logger = settings.logger\n# RegEx for removing special char and spliting text into lines\ndef text_processor(message):\n    RegExForSpecial = re.sub(\"[🔹💰🌺]\", \"\", message)\n    RegExForSpecial = re.sub(\" :\", \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(\"[ ]\", \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(r'^\\s', \"\", RegExForSpecial)\n    RegExForSpecial = re.sub(\n        r'^\\n|\\n\\n|\\n\\n\\n|\\n\\n\\n\\n|\\n\\n\\n\\n\\n', \"\", RegExForSpecial)\n    RefinedTxt = RegExForSpecial.splitlines()",
+        "detail": "modules.text_processor",
+        "documentation": {}
+    },
+    {
+        "label": "mediaCallback",
+        "kind": 2,
+        "importPath": "tasks.callbacks",
+        "description": "tasks.callbacks",
+        "peekOfCode": "def mediaCallback(*args):\n    logger.info(f'Result: {args[0]}')\n    return args[0]\n@celery.task()\ndef NewProductCallback(*args):\n    logger.info(f'Results count: {len(args)}')\n    return args[0][0]\n@celery.task()\ndef dummy(self, *args, **kwargs):\n    pass",
+        "detail": "tasks.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "NewProductCallback",
+        "kind": 2,
+        "importPath": "tasks.callbacks",
+        "description": "tasks.callbacks",
+        "peekOfCode": "def NewProductCallback(*args):\n    logger.info(f'Results count: {len(args)}')\n    return args[0][0]\n@celery.task()\ndef dummy(self, *args, **kwargs):\n    pass",
+        "detail": "tasks.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "dummy",
+        "kind": 2,
+        "importPath": "tasks.callbacks",
+        "description": "tasks.callbacks",
+        "peekOfCode": "def dummy(self, *args, **kwargs):\n    pass",
+        "detail": "tasks.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "tasks.callbacks",
+        "description": "tasks.callbacks",
+        "peekOfCode": "logger = settings.logger\n@celery.task()\ndef mediaCallback(*args):\n    logger.info(f'Result: {args[0]}')\n    return args[0]\n@celery.task()\ndef NewProductCallback(*args):\n    logger.info(f'Results count: {len(args)}')\n    return args[0][0]\n@celery.task()",
+        "detail": "tasks.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "maker",
+        "kind": 2,
+        "importPath": "tasks.category_create",
+        "description": "tasks.category_create",
+        "peekOfCode": "def maker():\n    with requests.Session() as session:\n        session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'\n        page = session.get('https://toptanci.com/')\n        logger.info(\n            f'New page request has been made | Response: {page.status_code}')\n        soup = BeautifulSoup(page.content, \"html.parser\")\n        result = soup.find('body')\n        navBar = result.find(class_=\"navbar-nav\")\n        page_element = navBar.find_all(\"li\", class_='darken-onshow')",
+        "detail": "tasks.category_create",
+        "documentation": {}
+    },
+    {
+        "label": "category_maker",
+        "kind": 2,
+        "importPath": "tasks.category_create",
+        "description": "tasks.category_create",
+        "peekOfCode": "def category_maker(sub, sub_link_title, category_list):\n    url = \"https://app.ecwid.com/api/v3/63690252/categories?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7\"\n    headers = {\n        'Content-Type': 'application/json;charset=utf-8'\n    }\n    sub_name = turk_translate.translate(sub.text.strip())\n    if sub_link_title not in category_list['nameEn']:\n        main_id = category_list['id'][category_list['nameEn'].index(sub_name)]\n        payload = {\n            \"parentId\": main_id,",
+        "detail": "tasks.category_create",
+        "documentation": {}
+    },
+    {
+        "label": "turk_translate",
+        "kind": 5,
+        "importPath": "tasks.category_create",
+        "description": "tasks.category_create",
+        "peekOfCode": "turk_translate = settings.turk_translate\nenglish_translate = settings.english_translate\nlogger = settings.logger\ndef maker():\n    with requests.Session() as session:\n        session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'\n        page = session.get('https://toptanci.com/')\n        logger.info(\n            f'New page request has been made | Response: {page.status_code}')\n        soup = BeautifulSoup(page.content, \"html.parser\")",
+        "detail": "tasks.category_create",
+        "documentation": {}
+    },
+    {
+        "label": "english_translate",
+        "kind": 5,
+        "importPath": "tasks.category_create",
+        "description": "tasks.category_create",
+        "peekOfCode": "english_translate = settings.english_translate\nlogger = settings.logger\ndef maker():\n    with requests.Session() as session:\n        session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'\n        page = session.get('https://toptanci.com/')\n        logger.info(\n            f'New page request has been made | Response: {page.status_code}')\n        soup = BeautifulSoup(page.content, \"html.parser\")\n        result = soup.find('body')",
+        "detail": "tasks.category_create",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "tasks.category_create",
+        "description": "tasks.category_create",
+        "peekOfCode": "logger = settings.logger\ndef maker():\n    with requests.Session() as session:\n        session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'\n        page = session.get('https://toptanci.com/')\n        logger.info(\n            f'New page request has been made | Response: {page.status_code}')\n        soup = BeautifulSoup(page.content, \"html.parser\")\n        result = soup.find('body')\n        navBar = result.find(class_=\"navbar-nav\")",
+        "detail": "tasks.category_create",
+        "documentation": {}
+    },
+    {
+        "label": "media_check",
+        "kind": 2,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "def media_check(media_path):\n    global GifFile, count\n    video_files = []\n    VidTypes = ['video/mp4', 'video/avi', 'video/mkv', 'video/mpeg']\n    FileTypes = magic.Magic(mime=True)\n    for Ip in media_path['image']:\n        FileType = FileTypes.from_file(Ip)\n        for Vi in VidTypes:\n            if Vi == FileType:\n                logger.info(",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "vid2Gif",
+        "kind": 2,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "def vid2Gif(video):\n    global GifFile, count\n    count += 1\n    GifFile = f'media/animpic{str(count)}.gif'\n    Vid = VideoFileClip(video).subclip(0, 10).resize(0.5)\n    Vid.write_gif(GifFile, program='ffmpeg', fps=24)\n    Vid.close()\n    size = round(os.path.getsize(GifFile) / 1024**2)\n    if size >= 18:\n        Vid = VideoFileClip(video).subclip(0, 10).resize(0.5)",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "clear_all",
+        "kind": 2,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "def clear_all(media_path):\n    media_path['image'].clear()\n    media_path['grouped_id'].clear()\n    Files = glob.glob('media/*')\n    for file in Files:\n        os.remove(file)\ndef incoming_message_check(reqResponse):\n    if reqResponse:        \n        if reqResponse.message:\n            ContentMessage = reqResponse.message",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "incoming_message_check",
+        "kind": 2,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "def incoming_message_check(reqResponse):\n    if reqResponse:        \n        if reqResponse.message:\n            ContentMessage = reqResponse.message\n        elif reqResponse.channel_post:\n            ContentMessage = reqResponse.channel_post\n        elif reqResponse.effective_message:\n            ContentMessage = reqResponse.effective_message\n        if ContentMessage:\n            return ContentMessage",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "logger = settings.logger\ncount = 0\ndef media_check(media_path):\n    global GifFile, count\n    video_files = []\n    VidTypes = ['video/mp4', 'video/avi', 'video/mkv', 'video/mpeg']\n    FileTypes = magic.Magic(mime=True)\n    for Ip in media_path['image']:\n        FileType = FileTypes.from_file(Ip)\n        for Vi in VidTypes:",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "tasks.checks",
+        "description": "tasks.checks",
+        "peekOfCode": "count = 0\ndef media_check(media_path):\n    global GifFile, count\n    video_files = []\n    VidTypes = ['video/mp4', 'video/avi', 'video/mkv', 'video/mpeg']\n    FileTypes = magic.Magic(mime=True)\n    for Ip in media_path['image']:\n        FileType = FileTypes.from_file(Ip)\n        for Vi in VidTypes:\n            if Vi == FileType:",
+        "detail": "tasks.checks",
+        "documentation": {}
+    },
+    {
+        "label": "create_product",
+        "kind": 2,
+        "importPath": "tasks.create_products",
+        "description": "tasks.create_products",
+        "peekOfCode": "def create_product(message, MCategory, categories, media_path):\n    \"\"\"\n    Celery task to create a product in the e-commerce platform from Telegram data.\n    This asynchronous task processes incoming Telegram messages containing product\n    information and creates corresponding products in the Ecwid e-commerce platform.\n    Processing Pipeline:\n    1. Message validation and text processing\n    2. Content extraction and validation\n    3. Multi-language translation (Arabic ↔ English)\n    4. Product attribute mapping and calculation",
+        "detail": "tasks.create_products",
+        "documentation": {}
+    },
+    {
+        "label": "poster",
+        "kind": 2,
+        "importPath": "tasks.create_products",
+        "description": "tasks.create_products",
+        "peekOfCode": "def poster(body):\n    # Sending the POST request to create the products\n    postData = json.dumps(body)\n    response = requests.post(settings.products_url,\n                             data=postData, headers=settings.ecwid_headers)\n    resCode = int(response.status_code)\n    response = json.loads(response.text.encode('utf-8'))\n    logger.info(\"Body request has been sent\")\n    return response, resCode",
+        "detail": "tasks.create_products",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "tasks.create_products",
+        "description": "tasks.create_products",
+        "peekOfCode": "logger = settings.logger\narabic_translate = settings.arabic_translate\n# Creates a product and assign the main product image\n@celery.task()\ndef create_product(message, MCategory, categories, media_path):\n    \"\"\"\n    Celery task to create a product in the e-commerce platform from Telegram data.\n    This asynchronous task processes incoming Telegram messages containing product\n    information and creates corresponding products in the Ecwid e-commerce platform.\n    Processing Pipeline:",
+        "detail": "tasks.create_products",
+        "documentation": {}
+    },
+    {
+        "label": "arabic_translate",
+        "kind": 5,
+        "importPath": "tasks.create_products",
+        "description": "tasks.create_products",
+        "peekOfCode": "arabic_translate = settings.arabic_translate\n# Creates a product and assign the main product image\n@celery.task()\ndef create_product(message, MCategory, categories, media_path):\n    \"\"\"\n    Celery task to create a product in the e-commerce platform from Telegram data.\n    This asynchronous task processes incoming Telegram messages containing product\n    information and creates corresponding products in the Ecwid e-commerce platform.\n    Processing Pipeline:\n    1. Message validation and text processing",
+        "detail": "tasks.create_products",
+        "documentation": {}
+    },
+    {
+        "label": "upload_main_image",
+        "kind": 2,
+        "importPath": "tasks.uploader",
+        "description": "tasks.uploader",
+        "peekOfCode": "def upload_main_image(ItemId, Main):\n    main_image_data = open(Main, 'rb').read()\n    main_image_response = requests.post(\n        f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/image?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7',\n        data=main_image_data,\n        headers=settings.ecwid_headers)\n    logger.info(\n        f'Main image upload is successful | Status code: {main_image_response.status_code} | Reason: { main_image_response.reason} | Image name: {Main}'\n    )\n# Adding gallery images to the product",
+        "detail": "tasks.uploader",
+        "documentation": {}
+    },
+    {
+        "label": "gallery_uploader",
+        "kind": 2,
+        "importPath": "tasks.uploader",
+        "description": "tasks.uploader",
+        "peekOfCode": "def gallery_uploader(ItemId, media_path,  Main):\n    for img in media_path:\n        if img is not None and img != Main:            \n            ImgFile = open(img, 'rb')\n            r3 = requests.post(\n                f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/gallery?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7',\n                data=ImgFile,\n                headers=settings.ecwid_headers)\n            if r3.ok:\n                logger.info(",
+        "detail": "tasks.uploader",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "tasks.uploader",
+        "description": "tasks.uploader",
+        "peekOfCode": "logger = settings.logger\n# Uploads main image\n@celery.task()\ndef upload_main_image(ItemId, Main):\n    main_image_data = open(Main, 'rb').read()\n    main_image_response = requests.post(\n        f'https://app.ecwid.com/api/v3/63690252/products/{ItemId}/image?token=secret_4i936SRqRp3317MZ51Aa4tVjeUVyGwW7',\n        data=main_image_data,\n        headers=settings.ecwid_headers)\n    logger.info(",
+        "detail": "tasks.uploader",
+        "documentation": {}
+    },
+    {
+        "label": "save_data",
+        "kind": 2,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "def save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.\n    This function handles incremental data saving during the scraping process\n    to prevent data loss and enable resume functionality. It performs:\n    1. Checks if the target JSON file already exists\n    2. If exists: loads existing data and merges with new data\n    3. If not exists: creates new file with current data\n    4. Implements duplicate detection to prevent redundant saves\n    5. Uses UTF-8 encoding for proper multilingual support",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main orchestration function that coordinates scraping and product creation.\n    This function implements a multi-threaded approach to optimize performance:\n    1. Creates a separate thread for web scraping (ulusoyScraper)\n    2. Runs product creation in the main thread (create_product)  \n    3. Uses thread synchronization to coordinate between operations\n    Threading Strategy:\n        - Scraping thread: Handles I/O intensive web scraping operations\n        - Main thread: Handles API calls and product creation",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "cls",
+        "kind": 2,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "def cls():\n    \"\"\"\n    Utility function to clear the console screen.\n    Provides a clean console interface by clearing previous output.\n    Platform-specific implementation for Windows environment.\n    Returns:\n        int: System command return code (0 for success)\n    \"\"\"\n    return os.system(\"cls\")\n# Clear console for clean startup interface",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "turk_translate",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "turk_translate = settings.turk_translate     # Turkish to English translator\nenglish_translate = settings.english_translate  # English to Arabic translator\nlogger = settings.logger                    # Application logger instance\n# Session cookies for maintaining authenticated requests to ulusoyspor.com\n# These cookies handle user session, popup settings, push notifications, and cart data\ncookies = {\n    'ticimax_PopupSettings': '{\"desktop\":false,\"mobilApps\":false}',\n    '__zlcmid': '1DHlQZP5CRr4OeQ',\n    'ticiPushNotification': '{\"chromePush\":false}',\n    'TicimaxReferer': 'referer=https://www.ulusoyspor.com/toptan-erkek-ayakkabi-01',",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "english_translate",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "english_translate = settings.english_translate  # English to Arabic translator\nlogger = settings.logger                    # Application logger instance\n# Session cookies for maintaining authenticated requests to ulusoyspor.com\n# These cookies handle user session, popup settings, push notifications, and cart data\ncookies = {\n    'ticimax_PopupSettings': '{\"desktop\":false,\"mobilApps\":false}',\n    '__zlcmid': '1DHlQZP5CRr4OeQ',\n    'ticiPushNotification': '{\"chromePush\":false}',\n    'TicimaxReferer': 'referer=https://www.ulusoyspor.com/toptan-erkek-ayakkabi-01',\n    # Long cookie containing visited product IDs for session tracking",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "logger = settings.logger                    # Application logger instance\n# Session cookies for maintaining authenticated requests to ulusoyspor.com\n# These cookies handle user session, popup settings, push notifications, and cart data\ncookies = {\n    'ticimax_PopupSettings': '{\"desktop\":false,\"mobilApps\":false}',\n    '__zlcmid': '1DHlQZP5CRr4OeQ',\n    'ticiPushNotification': '{\"chromePush\":false}',\n    'TicimaxReferer': 'referer=https://www.ulusoyspor.com/toptan-erkek-ayakkabi-01',\n    # Long cookie containing visited product IDs for session tracking\n    'SonZiyaretEdilenUrunler': 'strUrunID=44495,39295,44496,44296,9078,9093,9096,9103,9139,9140,9142,9176,9183,9200,9276,9277,9303,14775,18628,18631,18632,27350,27355,28166,28167,31535,31536,33815,34216,35336,35346,35359,35762,35799,35927,35928,35929,35931,35932,35940,35942,36062,36063,36215,36216,36338,36363,36434,36435,36437,36471,36576,36610,36612,36614,36651,36654,36655,36731,36732,36733,36735,36736,36740,36928,36929,36977,36978,37013,37080,37081,37148,37179,37215,37229,37246,37262,37553,37871,38285,38288,38303,38304,38309,38347,38392,38437,38545,38668,38839,38992,39020,39087,39191,39222,39242,39247,39249,39273,39277,39417,39425,39457,39476,39603,39606,39696,39702,39809,39811,39857,39870,39933,39937,39959,40004,40005,40006,40123,40126,40127,40229,40433,40517,40518,40539,40685,40686,40692,40694,40695,40734,40735,40762,40763,40766,40767,40809,40895,40917,40918,40919,40920,41017,41042,41043,41044,41046,41428,41483,41486,41550,41551,41557,41648,41649,41650,41651,41652,41692,41693,41696,41700,41704,41705,41716,41717,41718,41719,41741,41742,41743,41766,41768,41790,41791,41800,41801,41808,41809,41810,41811,27285,41812,41813,41814,41815,41816,41817,41818,41819,41820,41821,41827,41828,41841,41842,41981,41982,41983,42010,42011,42012,42013,42027,42028,42086,42091,42173,42174,42175,42181,42197,42281,42282,42308,42431,42463,42466,42467,42469,42470,42476,42479,42481,42482,42483,42523,42533,42538,42548,42577,42579,42619,42621,42636,43338,43337,43336,42639,42635,42634,42633,42629,42628,42627,42637,42638,42640,42641,42670,42673,42676,42721,42755,42757,42759,42760,42766,42767,42768,42828,42829,42830,42831,42833,42834,42835,42849,42850,42874,42912,42913,42914,42917,42944,42945,42946,42954,42958,42959,43011,43012,43016,43017,43018,43045,43100,43101,43104,43212,43213,43215,43216,43233,43235,43299,43352,43364,43457,43545,43546,43553,43554,43555,43556,43575,43737,43738,43753,43787,43792,43861,43863,43885,43889,43891,43901,43988,43989,43990,43991,43992,43993,43994,44093,44100,44104,44107,44135,44136,44137,44181,44188,44226,44262,44263,44264,44270,44276,44277,44279,44348,44350,44351,44353,44358,44359,44360,44361,44362,44388,44389,44396,44406,44407,44413,44414,44415,44421,44422,44423,44424,44425,44429,44430,44431,44432,44433,44438,44440,44441,44451,44457,44460,44461,44470,44473,44500,44501,35761,34381,34217,42752,42089,44499,44498,44395,44133,44085,43790,43098,44525,44526,42480&strKategoriID=242,229,256,244,267,232,233,280,255,265,247,230,248,268',",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "cookies",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "cookies = {\n    'ticimax_PopupSettings': '{\"desktop\":false,\"mobilApps\":false}',\n    '__zlcmid': '1DHlQZP5CRr4OeQ',\n    'ticiPushNotification': '{\"chromePush\":false}',\n    'TicimaxReferer': 'referer=https://www.ulusoyspor.com/toptan-erkek-ayakkabi-01',\n    # Long cookie containing visited product IDs for session tracking\n    'SonZiyaretEdilenUrunler': 'strUrunID=44495,39295,44496,44296,9078,9093,9096,9103,9139,9140,9142,9176,9183,9200,9276,9277,9303,14775,18628,18631,18632,27350,27355,28166,28167,31535,31536,33815,34216,35336,35346,35359,35762,35799,35927,35928,35929,35931,35932,35940,35942,36062,36063,36215,36216,36338,36363,36434,36435,36437,36471,36576,36610,36612,36614,36651,36654,36655,36731,36732,36733,36735,36736,36740,36928,36929,36977,36978,37013,37080,37081,37148,37179,37215,37229,37246,37262,37553,37871,38285,38288,38303,38304,38309,38347,38392,38437,38545,38668,38839,38992,39020,39087,39191,39222,39242,39247,39249,39273,39277,39417,39425,39457,39476,39603,39606,39696,39702,39809,39811,39857,39870,39933,39937,39959,40004,40005,40006,40123,40126,40127,40229,40433,40517,40518,40539,40685,40686,40692,40694,40695,40734,40735,40762,40763,40766,40767,40809,40895,40917,40918,40919,40920,41017,41042,41043,41044,41046,41428,41483,41486,41550,41551,41557,41648,41649,41650,41651,41652,41692,41693,41696,41700,41704,41705,41716,41717,41718,41719,41741,41742,41743,41766,41768,41790,41791,41800,41801,41808,41809,41810,41811,27285,41812,41813,41814,41815,41816,41817,41818,41819,41820,41821,41827,41828,41841,41842,41981,41982,41983,42010,42011,42012,42013,42027,42028,42086,42091,42173,42174,42175,42181,42197,42281,42282,42308,42431,42463,42466,42467,42469,42470,42476,42479,42481,42482,42483,42523,42533,42538,42548,42577,42579,42619,42621,42636,43338,43337,43336,42639,42635,42634,42633,42629,42628,42627,42637,42638,42640,42641,42670,42673,42676,42721,42755,42757,42759,42760,42766,42767,42768,42828,42829,42830,42831,42833,42834,42835,42849,42850,42874,42912,42913,42914,42917,42944,42945,42946,42954,42958,42959,43011,43012,43016,43017,43018,43045,43100,43101,43104,43212,43213,43215,43216,43233,43235,43299,43352,43364,43457,43545,43546,43553,43554,43555,43556,43575,43737,43738,43753,43787,43792,43861,43863,43885,43889,43891,43901,43988,43989,43990,43991,43992,43993,43994,44093,44100,44104,44107,44135,44136,44137,44181,44188,44226,44262,44263,44264,44270,44276,44277,44279,44348,44350,44351,44353,44358,44359,44360,44361,44362,44388,44389,44396,44406,44407,44413,44414,44415,44421,44422,44423,44424,44425,44429,44430,44431,44432,44433,44438,44440,44441,44451,44457,44460,44461,44470,44473,44500,44501,35761,34381,34217,42752,42089,44499,44498,44395,44133,44085,43790,43098,44525,44526,42480&strKategoriID=242,229,256,244,267,232,233,280,255,265,247,230,248,268',\n    'TcmxSID': 'dcq5ashvd1i1lbyfg4mkc4ad',\n    '__cf_bm': 'Rkva610tSj21ulcPIL462tv7uiN9RLqSwRec5VRDM58-1670499974-0-AUPmiLKGGSolSinxDrCUFIt5w5fMztVqfGbb3UprZGpRnnkdchHJHZFy1At9AiC69iAuBuq0IQreO9P1qptVpeU=',\n    'Ticimax_Cart_SessionID': '638060969710169946740E9DEB02CC43EA9D671477F54991E5',",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "headers = {\n    'accept': 'application/json, text/javascript, */*; q=0.01',\n    'accept-language': 'en,ar;q=0.9,tr;q=0.8',\n    'cache-control': 'no-cache',\n    'content-type': 'application/json; charset=UTF-8',\n    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',\n    'x-requested-with': 'XMLHttpRequest'\n}\n# API parameters for product listing requests\n# Contains filter and pagination configuration for product queries",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "params = {\n    'c': 'entry0010',  # Controller identifier\n    # JSON filter for product search - controls categories, brands, price range, etc.\n    'FilterJson': '{\"CategoryIdList\":[0],\"BrandIdList\":[],\"SupplierIdList\":[],\"TagIdList\":[],\"TagId\":-1,\"FilterObject\":[],\"MinStockAmount\":-1,\"IsShowcaseProduct\":-1,\"IsOpportunityProduct\":-1,\"FastShipping\":-1,\"IsNewProduct\":-1,\"IsDiscountedProduct\":-1,\"IsShippingFree\":-1,\"IsProductCombine\":-1,\"MinPrice\":0,\"MaxPrice\":0,\"Point\":0,\"SearchKeyword\":\"\",\"StrProductIds\":\"\",\"IsSimilarProduct\":false,\"RelatedProductId\":0,\"ProductKeyword\":\"\",\"PageContentId\":0,\"StrProductIDNotEqual\":\"\",\"IsVariantList\":-1,\"IsVideoProduct\":-1,\"ShowBlokVideo\":-1,\"VideoSetting\":{\"ShowProductVideo\":-1,\"AutoPlayVideo\":-1},\"ShowList\":1,\"VisibleImageCount\":6,\"ShowCounterProduct\":-1,\"ImageSliderActive\":false,\"ProductListPageId\":0,\"ShowGiftHintActive\":false,\"NonStockShowEnd\":1}',\n    # JSON pagination settings - controls page size and ordering\n    'PagingJson': '{\"PageItemCount\":0,\"PageNumber\":1,\"OrderBy\":\"uk.ID\",\"OrderDirection\":\"DESC\"}',\n    'CreateFilter': 'true',  # Enable filter creation\n    'TransitionOrder': '0',  # Order transition setting\n    'PageType': '1',         # Page type identifier\n    'PageId': '228',         # Default page ID",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "products = {\"Men\": [],      # Men's shoes\n            \"Women\": [],    # Women's shoes\n            \"Kid\": [],      # Children's shoes\n            \"Baby\": []}     # Baby shoes\n# Base URLs for the ulusoyspor website\nURL = \"https://www.ulusoyspor.com/en\"    # English version for navigation\nURL2 = \"https://www.ulusoyspor.com\"       # Turkish version (main site)\nLogin = 'https://www.ulusoyspor.com/UyeGiris'  # Login endpoint\n# Color validation list from CSS3 color names for product color extraction\ncolors = list(map(str, webcolors.CSS3_NAMES_TO_HEX.keys()))",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "URL = \"https://www.ulusoyspor.com/en\"    # English version for navigation\nURL2 = \"https://www.ulusoyspor.com\"       # Turkish version (main site)\nLogin = 'https://www.ulusoyspor.com/UyeGiris'  # Login endpoint\n# Color validation list from CSS3 color names for product color extraction\ncolors = list(map(str, webcolors.CSS3_NAMES_TO_HEX.keys()))\n# Global flag to control synchronization between scraping and product creation threads\nswitchLock = False\ndef save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "URL2",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "URL2 = \"https://www.ulusoyspor.com\"       # Turkish version (main site)\nLogin = 'https://www.ulusoyspor.com/UyeGiris'  # Login endpoint\n# Color validation list from CSS3 color names for product color extraction\ncolors = list(map(str, webcolors.CSS3_NAMES_TO_HEX.keys()))\n# Global flag to control synchronization between scraping and product creation threads\nswitchLock = False\ndef save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.\n    This function handles incremental data saving during the scraping process",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "Login",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "Login = 'https://www.ulusoyspor.com/UyeGiris'  # Login endpoint\n# Color validation list from CSS3 color names for product color extraction\ncolors = list(map(str, webcolors.CSS3_NAMES_TO_HEX.keys()))\n# Global flag to control synchronization between scraping and product creation threads\nswitchLock = False\ndef save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.\n    This function handles incremental data saving during the scraping process\n    to prevent data loss and enable resume functionality. It performs:",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "colors = list(map(str, webcolors.CSS3_NAMES_TO_HEX.keys()))\n# Global flag to control synchronization between scraping and product creation threads\nswitchLock = False\ndef save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.\n    This function handles incremental data saving during the scraping process\n    to prevent data loss and enable resume functionality. It performs:\n    1. Checks if the target JSON file already exists\n    2. If exists: loads existing data and merges with new data",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "switchLock",
+        "kind": 5,
+        "importPath": "ulusoyspor_scraper",
+        "description": "ulusoyspor_scraper",
+        "peekOfCode": "switchLock = False\ndef save_data(data: dict, main: str, files: str):\n    \"\"\"\n    Saves scraped product data to JSON files with intelligent merging.\n    This function handles incremental data saving during the scraping process\n    to prevent data loss and enable resume functionality. It performs:\n    1. Checks if the target JSON file already exists\n    2. If exists: loads existing data and merges with new data\n    3. If not exists: creates new file with current data\n    4. Implements duplicate detection to prevent redundant saves",
+        "detail": "ulusoyspor_scraper",
+        "documentation": {}
+    }
+]

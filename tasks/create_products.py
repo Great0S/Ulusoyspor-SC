@@ -1,3 +1,28 @@
+"""
+Product Creation Tasks Module
+
+This module handles the creation of products in the e-commerce platform (Ecwid)
+from Telegram message data. It processes incoming product information, validates
+content, translates text to multiple languages, and creates fully-featured 
+product listings with comprehensive attributes and media.
+
+Key Features:
+- Telegram message parsing and validation
+- Multi-language content generation (Arabic/English)
+- Product attribute mapping and processing
+- Media file handling and optimization
+- E-commerce API integration
+- Comprehensive error handling and logging
+
+Dependencies:
+    - requests: HTTP API calls to e-commerce platform
+    - celery: Asynchronous task processing
+    - Custom modules for specialized processing (categories, options, text)
+
+Author: Ulusoyspor Team
+Version: 1.0
+"""
+
 import json
 import re
 
@@ -11,6 +36,7 @@ from modules.text_processor import text_processor
 from tasks.checks import clear_all
 from app.celery_server import celery
 
+# Initialize logging and translation services from settings
 logger = settings.logger
 arabic_translate = settings.arabic_translate
 
@@ -18,36 +44,83 @@ arabic_translate = settings.arabic_translate
 # Creates a product and assign the main product image
 @celery.task()
 def create_product(message, MCategory, categories, media_path):
+    """
+    Celery task to create a product in the e-commerce platform from Telegram data.
+
+    This asynchronous task processes incoming Telegram messages containing product
+    information and creates corresponding products in the Ecwid e-commerce platform.
+
+    Processing Pipeline:
+    1. Message validation and text processing
+    2. Content extraction and validation
+    3. Multi-language translation (Arabic ↔ English)
+    4. Product attribute mapping and calculation
+    5. Category assignment and SEO optimization
+    6. API payload construction
+    7. Product creation via Ecwid API
+    8. Media cleanup and error handling
+
+    Args:
+        message (str): Raw Telegram message containing product information
+                      Expected format: product details with size, price, etc.
+        MCategory (str): Main product category for classification
+        categories (dict): Category mapping data for proper assignment
+        media_path (str): Path to temporary media files for cleanup
+
+    Returns:
+        None: Function handles all operations internally with comprehensive logging
+
+    Raises:
+        ValidationError: For invalid message format or content
+        APIError: For e-commerce platform API failures
+        TranslationError: For translation service failures
+
+    Error Handling:
+        - Invalid message length validation
+        - Content filtering for inappropriate terms
+        - API response validation and error logging
+        - Automatic media cleanup on errors
+
+    Side Effects:
+        - Creates product in e-commerce platform
+        - Logs all operations for monitoring
+        - Cleans up temporary media files
+        - Updates product categories if needed
+    """
     global ResContent, Main, body, seoNameEn
 
-    # Checking message type
+    # Validate message exists and is processable
     if message:
         try:
-            # Text processing
+            # Step 1: Process and clean the raw Telegram message text
             RefinedTxt = text_processor(message)
 
-            # Condition to check for invalid message length
+            # Step 2: Validate message content length for completeness
             if len(RefinedTxt) < 7:
-                clear_all(media_path)
+                clear_all(media_path)  # Cleanup media files
                 logger.error(
                     f"Invalid message length found | Length: {len(RefinedTxt)}"
                 )
                 return
 
-            # Creating variables with ready to use data from telegram message
+            # Step 3: Extract product information from processed text
+            # Product name in Arabic
             name = RefinedTxt[1].strip()
-            nameEn = arabic_translate.translate(name)
+            nameEn = arabic_translate.translate(
+                name)       # English translation
+            # Clean translation artifacts
             nameEn = re.sub('a ', '', nameEn)
-            nameEn = nameEn.capitalize()
-            # Checking for invalid criteria
+            nameEn = nameEn.capitalize()                    # Proper capitalization
+
+            # Step 4: Content validation - filter inappropriate terms
             if re.search('السيري', name) or re.search('السيري', name):
                 clear_all(media_path)
-                logger.error(
-                    'Invalid name found')
+                logger.error('Invalid name found')
                 return
 
+            # Step 5: Extract and process size information
             size = RefinedTxt[2]
-            size = re.sub('\D', '', size)
+            size = re.sub('\D', '', size)  # Extract only numeric characters
             pcQty = RefinedTxt[3]
             pcQty = int(re.sub('\D', '', pcQty))
             price = RefinedTxt[4]
@@ -196,11 +269,13 @@ def create_product(message, MCategory, categories, media_path):
             logger.exception(e)
             return None
 
+
 def poster(body):
 
     # Sending the POST request to create the products
     postData = json.dumps(body)
-    response = requests.post(settings.products_url, data=postData, headers=settings.ecwid_headers)
+    response = requests.post(settings.products_url,
+                             data=postData, headers=settings.ecwid_headers)
     resCode = int(response.status_code)
     response = json.loads(response.text.encode('utf-8'))
     logger.info("Body request has been sent")
